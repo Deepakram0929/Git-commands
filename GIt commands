@@ -1,0 +1,41 @@
+//Git workflow
+
+git init --> to initialize
+ls --> list file
+ls -a --> to see hidden files
+git config user.name "user-name"  -->  enter the name
+git config user.email "user-email"  -->  enter the email
+git config --global user.name "user-name" --> to provide the name globally
+git add .  --> to add all files
+git add *.extension  --> to add specific files
+git commit file-name -m "msg" --> to commit files 
+git config --list   --> to list credentials
+git config --global --list  --> to list global credentials
+
+git remote add origin <repository-name>  --> to add to GitHub
+git remote -v  --> to which repository 
+git remote remove origin --> to remove the connections
+git remote origin
+
+
+
+// Git Branch commands
+
+git branch -a  --> to list hidden files
+git branch -r  --> to list only remote branches
+git branch --list  --> to list branches
+git branch <branch-name>  -->  to create new branch 
+git checkout -b <branch-name>  --> to create and switch into branch
+git checkout <branch-name>  --> to switch into branch
+or
+git switch <branch-name>  
+git branch -D <branch-name>  --> to delete branch locally
+
+git branch -m <branch-name>  --> to rename a branch
+git branch -m <old-branch-name> <new-branch-name>  --> to rename branch from master
+
+git push origin -d <branch-name>
+
+
+
+
