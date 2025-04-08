@@ -37,5 +37,20 @@ git branch -m <old-branch-name> <new-branch-name>  --> to rename branch from mas
 git push origin -d <branch-name>
 
 
+// Merging
+
+git merge <branch-name>  --> to merge one branch into another (it shows the commit)
+git push origin <branch-name>  --> to push merged branchs into remote repo
+
+
+//Rebase
+
+git rebase <branch-name>  --> to merge one branch into another (it not shows the commit)
+
+
+//Merge conflict
+
+
+
 
 
